@@ -1,0 +1,351 @@
+.DisplayFlex {
+    display: flex;
+    justify-content: center;
+  }
+  .JustifyContent {
+    justify-content: space-around;
+  }
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  html,
+  body {
+    font-family: 'Russo One', sans-serif;
+    color: #5E6164;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Russo One', sans-serif;
+    color: #23293B;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+  }
+  .navigation nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Russo One', sans-serif;
+    width: 40%;
+    white-space: nowrap;
+    margin:20px;
+  
+  }
+  @media (max-width: 500px) {
+    .navigation nav {
+      display: flex;
+      justify-content: space-around;
+      font-family: 'Russo One', sans-serif;
+      width: 100%;
+    }
+  }
+  .navigation nav a {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5E6164;
+    margin-bottom: 20px;
+  }
+  .navigation h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  footer {
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 20px 0;
+    border: 1px double #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .intro .TopImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .home .intro h2 {
+    padding: 50px;
+  }
+  .home .intro p {
+    padding: 0 50px;
+  }
+  /* .home .space-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  } */
+  /* @media (max-width: 500px) {
+    .home .space-images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  } */
+  /* .home .space-images img {
+    width: 28%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+  } */
+  /* @media (max-width: 500px) {
+    .home .space-images img {
+      justify-content: center;
+      width: 95%;
+    }
+  } */
+  /* @media (max-width: 500px) {
+    .home .space-images img:nth-child(2) {
+      display: none;
+    }
+    .home .space-images img:nth-child(3) {
+      display: none;
+    }
+  } */
+  /* .home .visit-planets {
+    padding: 15px;
+  }
+  .home .visit-planets h3 {
+    margin-top: 11px;
+  }
+  .home .visit-planets p {
+    margin-top: 13px;
+  } */
+  .home .takeAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-top: 1px solid #dee2e6;
+    /* padding: 50px 60px; */
+  }
+  .home .takeAction .takeActionWrapReverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  @media (max-width: 500px) {
+    .home .takeAction {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+    }
+  }
+  .home .takeAction .takeAction-text {
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    .home .takeAction .takeAction-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  .home .takeAction .takeAction-text h3 {
+    margin-bottom: 10px;
+  }
+  
+  .home .takeAction .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 35px;
+    width: 95%;
+    background-color: #23293B;
+    color: white;
+    border-radius: 5px;
+  }
+  .home .takeAction .btn:hover {
+    background: white;
+    color: #23293B;
+  }
+  .home .takeAction.btn .btn-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+  }
+  @media (max-width: 500px,) {
+    .home .takeAction .btn {
+      justify-content: center;
+      width: 90%;
+      height: 65px;
+    }
+  }
+  .home .takeAction .takeAction-img {
+    width: 95%;
+    /* margin-left: 4%; */
+  }
+  @media (max-width: 500px) {
+    .home .takeAction .takeAction-img {
+      justify-content: center;
+      width: 95%;
+      margin-left: 0%;
+      /* margin-bottom: 4%; */
+    }
+  }
+  .home .takeAction .takeAction-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom:50px;
+  }
+  

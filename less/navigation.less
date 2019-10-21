@@ -1,0 +1,52 @@
+// Navigation code here
+.navigation{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    width:100%;
+    
+    background-color: aliceblue;
+    
+        nav{
+            
+            display: flex;
+            .JustifyContent(); //LISA'S MIXIN TWO
+            font-family: 'Russo One', sans-serif;
+            width:40%;
+            height:200px;
+           
+
+            @media @phone {
+                display: flex;
+                .JustifyContent(); //LISA'S MIXIN TWO
+              
+                font-family: 'Russo One', sans-serif;
+                width:100%;
+              }
+            
+            
+           
+           
+            a{
+                
+                font-family: 'Russo One', sans-serif;
+                font-size: 20px;
+                text-decoration: none;
+                color: @main-font-color;
+                margin-bottom: 20px;
+           }
+            
+        }//this closes nav
+
+
+        
+        h1{
+            font-size: 50px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            
+        }
+    }

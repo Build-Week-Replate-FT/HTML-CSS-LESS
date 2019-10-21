@@ -1,0 +1,21 @@
+// Mixins Here
+
+
+
+.DisplayFlex{
+    display:flex;
+    justify-content: center;
+} // equals --> .DisplayFlex(); //Mix In ONE
+
+
+
+
+.JustifyContent{
+    justify-content: space-around;
+} // equals --> .JustifyContent(); Mix In TWO
+
+.CustomLayout(@height, @width){
+height:35px;
+width:100px;
+} // equals --> .CustomLayout(height, width); /// PARAMETRIC & PARAMETER MIXIN ONE AND ONLY
+
