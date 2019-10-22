@@ -126,3 +126,83 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Russo One', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: aliceblue;
+}
+header img {
+  width: 90%;
+  height: 250px;
+  border-radius: 10px;
+  margin: 50px;
+}
+.container .top {
+  margin: 20px;
+}
+.container .top h1 {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.container .row {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .container .row {
+    flex-direction: column;
+  }
+}
+.container .row div {
+  margin: 20px;
+  border-bottom: 1px dashed black;
+}
+.container .row div h1 {
+  font-size: 16px;
+}
+.container .row div p {
+  margin-bottom: 10px;
+}
+.container .row div img {
+  margin: 10px 0;
+}
+.container img {
+  height: 40px;
+  width: 40px;
+}
