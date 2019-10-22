@@ -168,6 +168,21 @@ header {
   width: 100%;
   background-color: aliceblue;
 }
+header h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+header nav {
+  margin: 20px;
+}
+header nav a {
+  margin: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+header nav a:hover {
+  background: white;
+}
 header img {
   width: 90%;
   height: 250px;
