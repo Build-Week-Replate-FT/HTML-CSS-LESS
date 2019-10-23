@@ -3,41 +3,47 @@
         margin: 20px;
 
         h1 {
-            font-size: 16px;
+            font-size: 20px;
             margin: 20px 0;
         }
     }
     .row{
         display: flex;
-    
-        // justify-content: center;
+        
+        
+         @media @tablet {
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            
+        
+        }
         
         @media @phone {
             flex-direction: column;
+            align-content: center;
+            align-items: center;
             
         }
 
         div {
             
-            margin: 20px;
+            width:33%;
+            margin: 20px 50px;
             border-bottom: 1px dashed black;
-            h1 {
-                font-size: 16px;
-            }
-            p {
-                margin-bottom: 10px;
-            }
-           
-
-            img{
-                margin: 10px 0;
+            
+            
+            h3 {
+                line-height: 1.5;
             }
         }
         
     }
     img {
-    height: 40px;
-    width: 40px;
+    height: 150px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
     
 }
 }
