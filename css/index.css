@@ -185,6 +185,8 @@ header nav a {
 }
 header nav a:hover {
   background: white;
+  border-radius: 5px;
+  color: black;
 }
 header img {
   width: 90%;
